@@ -23,7 +23,7 @@ Estos atributos cubren los aspectos básicos de un libro en una biblioteca.
 
 ### Atributo de Clase
 
-- `biblioteca` (str = "Biblioteca Central"): Compartido por todos los libros, representa la biblioteca propietaria. Elegido como atributo de clase porque es común a todas las instancias, ahorrando memoria y facilitando cambios globales (ej. si todos los libros pertenecen a la misma biblioteca).
+- `biblioteca` (str = "Biblioteca Central"): Compartido por todos los libros, representa la biblioteca propietaria..
 
 ### Métodos
 
