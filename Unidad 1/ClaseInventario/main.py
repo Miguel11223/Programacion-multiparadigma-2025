@@ -1,36 +1,36 @@
 from producto import Producto, Inventario
 
+def mostrar_menu():
+    print("\n=== Menú de Inventario ===")
+    print("1. Mostrar inventario")
+    print("2. Mostrar valor total del inventario")
+    print("3. Buscar producto")
+    print("4. Modificar stock de un producto")
+    print("5. Modificar precio de un producto")
+    print("6. Comparar dos productos")
+    print("7. Salir")
+
 def main():
     inventario = Inventario()
 
-    laptop = Producto("Laptop", 1000.0)
-    mouse = Producto("Mouse", 20.0)
-    teclado = Producto("Teclado", 50.0)
-    monitor = Producto("Monitor", 200.0)
+    try:
+        laptop = Producto("Laptop", 1000.0)
+        mouse = Producto("Mouse", 20.0)
+        teclado = Producto("Teclado", 50.0)
+        monitor = Producto("Monitor", 200.0)
 
-    laptop.stock = 10
-    laptop.precio = 1200.0
-    mouse.stock = 50
-    teclado.stock = 30
-    monitor.stock = 15
+        laptop.stock = 10
+        laptop.precio = 1200.0
+        mouse.stock = 50
+        teclado.stock = 30
+        monitor.stock = 15
 
-    inventario.agregar_producto(laptop)
-    inventario.agregar_producto(mouse)
-    inventario.agregar_producto(teclado)
-    inventario.agregar_producto(monitor)
+        inventario.agregar_producto(laptop)
+        inventario.agregar_producto(mouse)
+        inventario.agregar_producto(teclado)
+        inventario.agregar_producto(monitor)
+    except ValueError as e:
+        print(f"Error al inicializar productos: {e}")
+        return
 
-    print("\nProductos disponibles para comparar:")
-    print(", ".join([producto.nombre for producto in inventario._Inventario__productos.values()]))
-    nombre1 = input("Ingrese el nombre del primer producto a comparar: ")
-    nombre2 = input("Ingrese el nombre del segundo producto a comparar: ")
-
-    producto1 = inventario.buscar_producto(nombre1)
-    producto2 = inventario.buscar_producto(nombre2)
-
-    if producto1 and producto2:
-        print(f"\n¿Son iguales los productos {nombre1} y {nombre2}? {producto1 == producto2}")
-    else:
-        print("\nUno o ambos productos no se encontraron en el inventario.")
-
-        
-
+    
