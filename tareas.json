@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "titulo": "ProgramacionMultiparadigma",
+    "descripcion": "ProgramaGestordeTareas",
+    "prioridad": "media",
+    "completada": true,
+    "fecha_creacion": "2025-10-20 20:28:03",
+    "tipo": "TareaRecurrente",
+    "frecuencia": "única"
+  },
+  {
+    "id": 2,
+    "titulo": "Tarea de Apirest",
+    "descripcion": "Investigacion",
+    "prioridad": "media",
+    "completada": true,
+    "fecha_creacion": "2025-10-20 21:53:12",
+    "tipo": "TareaRecurrente",
+    "frecuencia": "única"
+  },
+  {
+    "id": 3,
+    "titulo": "Multiparadigma",
+    "descripcion": "Invvestigacion",
+    "prioridad": "media",
+    "completada": false,
+    "fecha_creacion": "2025-10-20 21:55:56",
+    "tipo": "TareaRecurrente",
+    "frecuencia": "única"
+  }
+]
