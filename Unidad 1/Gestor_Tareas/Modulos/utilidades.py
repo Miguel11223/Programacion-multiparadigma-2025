@@ -26,7 +26,7 @@ def obtener_opcion_valida(mensaje, min_valor, max_valor):
 
 def formatear_tarea(indice, tarea):
     """
-    Formatea una tarea para su visualización en texto.
+    Formatea una tarea para visualizarlo en texto.
 
     Parámetros:
         indice (int): Número de tarea para mostrar (1-based).
