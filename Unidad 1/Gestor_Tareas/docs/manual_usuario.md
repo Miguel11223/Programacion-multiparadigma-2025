@@ -8,14 +8,14 @@ El propósito de este programa es proporcionar una herramienta simple y modular 
 
 Este es un programa simple en Python para gestionar tareas. Permite agregar, listar, marcar como completadas y eliminar tareas a través de un menú interactivo.
 
-## Cómo Ejecutar el Proyecto
+## Cómo Ejecutar
 
-1. Abre la carpeta `gestor_tareas/` en tu terminal o línea de comandos.
+1. Abre la carpeta `gestor_tareas/` en la terminal.
 2. Ejecuta el comando: `python main.py`.
 3. El programa se iniciará mostrando un menú interactivo.
 4. Para detener el programa, selecciona la opción "5. Salir" en el menú.
 
-## Módulos Contenidos y su Función
+## Módulos y su Función
 
 - **main.py**: Este es el archivo principal que controla el flujo general del programa. Importa los otros módulos, crea una instancia de la clase principal y presenta un menú interactivo al usuario para manejar las operaciones de tareas.
 
