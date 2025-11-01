@@ -34,9 +34,3 @@ Todos los módulos incluyen docstrings detallados que explican su propósito, fu
 - **3. Marcar tarea como completada**: Ingresa el número de la tarea a marcar.
 - **4. Eliminar tarea**: Ingresa el número de la tarea a eliminar.
 - **5. Salir**: Termina el programa.
-
-## Notas
-
-- Las tareas se almacenan en memoria; se pierden al cerrar el programa.
-- Para persistencia, podrías extender el programa con archivos (e.g., JSON).
-- Si encuentras errores, verifica que los módulos estén en las carpetas correctas y que las importaciones sean correctas.
