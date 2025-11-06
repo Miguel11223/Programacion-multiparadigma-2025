@@ -4,7 +4,7 @@ Modulo que se encarga del manejo de la biblioteca.
 
 import sys
 from modelo import Biblioteca
-from operacion import agregar_libro, agregar_usuario, prestar_libro, devolver_libro
+from operacion import agregar_libro, agregar_usuario,mostrar_libros_disponibles, prestar_libro, devolver_libro
 
 def main():
     """
@@ -46,7 +46,7 @@ def main():
             print("Usuario agregado.")
 
         elif opcion == 3:
-            ()
+            mostrar_libros_disponibles(biblioteca)
 
         elif opcion == 4:
             usuario_nombre = input("Nombre del usuario: ").strip()

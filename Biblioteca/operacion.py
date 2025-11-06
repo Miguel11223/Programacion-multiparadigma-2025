@@ -32,6 +32,23 @@ def agregar_usuario(biblioteca, nombre):
     usuario = Usuario(nombre)
     biblioteca.usuarios.append(usuario)
 
+def mostrar_libros_disponibles(biblioteca):
+    """
+    Muestra la lista de libros disponibles
+
+    Parámetros:
+        biblioteca (Biblioteca): Instancia de la biblioteca
+
+    No devuelve valores e imprime la lista de libros
+    """
+    disponibles = [libro for libro in biblioteca.libros if libro.disponible]
+    if not disponibles:
+        print("No hay libros disponibles.")
+    else:
+        print("Libros disponibles:")
+        for idx, libro in enumerate(disponibles, 1):
+            print(f"{idx}. {libro.titulo} por {libro.autor} ({libro.ano})")
+
 def listar_libros_disponibles(biblioteca):
     """
     Lista libros disponibles
