@@ -1,3 +1,5 @@
+#Parte 1
+
 # Función B
 contador = 0
 def siguiente_id():
@@ -37,3 +39,5 @@ def mezclar_lista_pura(lista):
     lista_copia = list(lista)
     random.shuffle(lista_copia) 
     return lista_copia
+
+
