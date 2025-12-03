@@ -24,3 +24,16 @@ def agregar_fecha_pura(registro, fecha_actual):
     registro_copia['fecha'] = fecha_actual
     return registro_copia
 
+
+# Función E
+import random
+def mezclar_lista(lista):
+    random.shuffle(lista)
+    return lista
+
+#Funcion E correccion pura
+import random
+def mezclar_lista_pura(lista):
+    lista_copia = list(lista)
+    random.shuffle(lista_copia) 
+    return lista_copia
