@@ -25,3 +25,7 @@
 **Es impura**, ya que modifica el orden de la lista original y utiliza un random que hará que con cada ejecución sea distinto el resultado.
 
 **Para su versión pura** se debe de crear una copia de la lista antes mezclarla y además tal vez agregar una función que se encargue de realizar la mezcla de las listas.
+
+### Parte 2
+
+**Comentarios o reflexiones**: A decir verdad se me hizo mas sencilla la primera parte por lo de los ciclos, siento que si tengo que descomponer un ciclo en partes es mucho mas facil que me equivoque y no funcione el programa, a veces eso me da cosa si soy plenamente sincero.
