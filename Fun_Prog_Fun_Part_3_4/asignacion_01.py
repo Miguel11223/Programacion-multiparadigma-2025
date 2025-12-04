@@ -23,3 +23,15 @@ def componer(*funciones):
             resultado = func(resultado)
         return resultado
     return procesador_compuesto
+
+numeros = [1, -2, 3, -4, 5, -6, 7, 8, -9, 10]
+
+pipeline = componer(
+    crear_filtro(lambda x: x > 0),             
+    crear_transformador(lambda x: x ** 2),    
+    crear_reductor(lambda acc, x: acc + x, 0)  
+)
+
+resultado = pipeline(numeros)
+print(f"Resultado esperado: 248") 
+print(f"Resultado: {resultado}")
